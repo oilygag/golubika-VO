@@ -78,26 +78,7 @@
                 // add explicit map
                 <li><a href="https://goo.gl/maps/rK2JYMR178M2" target="_blank">Расположение на карте</a></li>
             </ul>
-            <div class="container">
-            <div class="row">
-                <div class="seven columns">
-                    <h3>Напишите нам:</h3>
-                    <form id="sendMessage" method="POST">
-                        <input type="text" name="name" value="" placeholder="Ваше имя" required>
-                        <textarea cols="45" name="message" placeholder="Ваше сообщение" required></textarea>
-                        <input type="email" name="email" value="" placeholder="Ваше e-mail" required>
-                        <input type="submit" name="send" value="Отправить">
-                    </form>
-                </div>
-                <div class="five columns info">
-                    <h3>Контактная информация</h3>
-                    <p><span>Телефон: </span>+375 (29) 224-55-81</p>
-                    <p>
-                        <a href="https://goo.gl/maps/rK2JYMR178M2" target="_blank">Расположение на карте</a></p>
-                    <p> Юридическая информация: <br> ООО "Ягодная долина" 220030, г. Минск, пл. Свободы 23, комн. 96, Республика Беларусь
-                    </p>
-                </div>
-            </div>
+
         </div>
         </div>
     </div>
@@ -123,18 +104,9 @@
     <!--header.php
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-    <div id="first" class="block">
-        <div class="container">
 
-            <div class="row">
-                <div class="seven columns">
-                    &nbsp
-                    <div class="persona">
-                        &nbsp
-                    </div>
-                </div>
 
-                      <div id="second" class="block">
+                <div id="second" class="block">
         <div class="container">
             <div class="row">
                 <div class="three columns">
@@ -150,7 +122,9 @@
                 </div>
             </div>
         </div>
-    </div>
+   </div>
+                <!--  <button class="button-primary bigger" onclick="poopup()">Заказать</button> -->
+
     <div id="third" class="block">
         <div class="container">
             <div class="row">
@@ -193,6 +167,29 @@
 
     <!--footer.php
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="seven columns">
+                    <h3>Напишите нам:</h3>
+                    <form id="sendMessage" method="POST">
+                        <input type="text" name="name" value="" placeholder="Ваше имя" required>
+                        <textarea cols="45" name="message" placeholder="Ваше сообщение" required></textarea>
+                        <input type="email" name="email" value="" placeholder="Ваше e-mail" required>
+                        <input type="submit" name="send" value="Отправить">
+                    </form>
+                </div>
+                <div class="five columns info">
+                    <h3>Контактная информация</h3>
+                    <p><span>Телефон: </span>+375 (29) 224-55-81</p>
+                    <p>
+                        <a href="https://goo.gl/maps/rK2JYMR178M2" target="_blank">Расположение на карте</a></p>
+                    <p> Юридическая информация: <br> ООО "Ягодная долина" 220030, г. Минск, пл. Свободы 23, комн. 96, Республика Беларусь
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script>
         var form = document.getElementById('sendMessage');

@@ -746,4 +746,98 @@ div.sort > div > h2{
 }
 
 
+section#sorts-p{
+    width: 50%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
 
+div.sort {
+    margin-top: 30px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 44px -14px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 2px 44px -14px rgba(0,0,0,0.65);
+    box-shadow: 0px 2px 44px -14px rgba(0,0,0,0.65);
+    background-color: white;
+}
+
+div.row > div.sort:first-child {
+    width: 48.5%;
+    float: left;
+}
+
+div.row > div.sort:last-child {
+    width: 48.5%;
+    float: right;
+}
+
+
+div.sort > img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+}
+div.sort > div{
+    padding: 2em 2.5em;
+    float: left;
+}
+
+div.sort > div > h2{
+    font-size: 25px;
+    color: #7BBF37;
+    margin-bottom: 10px;
+}
+
+
+/*@media (max-width: 1750px) {*/
+    /*section#sorts{*/
+
+        /*overflow: visible;*/
+
+    /*}*/
+    /*div.sort {*/
+        /*margin-top: 30px;*/
+        /*width: 100%;*/
+        /*float: none;*/
+        /*box-shadow: 0 0 5px rgba(0,0,0,0.5);*/
+
+    /*}*/
+/*}*/
+
+@media (max-width: 1200px) {
+
+
+    section#sorts-p{
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    section#ssorts-p{
+        width: 80%;
+    }
+
+    div.sort > img{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    div.row > div.sort:first-child {
+        width: 100%;
+        float: none;
+    }
+
+    div.row > div.sort:last-child {
+        width: 100%;
+        float: none;
+    }
+
+    nav > ul {
+        font-size: 0.6em;
+    }
+
+}
