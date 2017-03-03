@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Yagoda.by | Главная страница</title>
+    <meta name="description" content="Укорененные саженцы голубики 'InVitra'">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Hacks
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!--[if lt IE 9]> 
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+     <![endif]-->
+    <!-- Skripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script>
+        function poopup() {
+            document.getElementById("steam").style.display = 'block';
+        }
+
+        function closepop() {
+            document.getElementById("steam").style.display = 'none';
+        }
+
+        function menuopen() {
+            var el = document.getElementById("site-menu");
+
+            el.style.marginTop = (el.style.marginTop == '0px') ? '-40px' : '0px';
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- poupup
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <div id="steam">
+        <div id="poupup">
+
+            <div class="close" onclick="closepop()">
+
+            </div>
+
+            <!--<h3>Форма запроса</h3>
+            <form>
+                <label for="name">Как к вам обращаться?</label>
+                <input type="text" name="name" value="" placeholder="Имя">
+                <label for="tel">Ваш телефон</label>
+                <input type="text" name="tel" value="" placeholder="+XXX (XX) XXX-XX-XX">
+                <input type="button" name="send" value="Отправить">
+            </form>-->
+
+            <h3>Свяжитесь с нами:</h3>
+            <ul>
+                <li>Телефон: +375 (29) 224-55-81</li>
+                <li>E-mail: katrin8787@tut.by</li>
+                <li><a href="https://goo.gl/maps/rK2JYMR178M2" target="_blank">Расположение на карте</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- /poupup
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <header>
+
+        <nav id="site-menu">
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/sorts">Сорта</a></li>
+                <!--<li><a href="">Блог</a></li>-->
+                                <li><a href="#" onclick="poopup()">Заказать</a></li>
+            </ul>
+            <div id="menu-btn">
+                <a href="#" onclick="menuopen()">Меню</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--header.php
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <div id="first" class="block">
+        <div class="container">
+
+            <div class="row">
+                <div class="seven columns">
+                    &nbsp
+                    <div class="persona">
+                        &nbsp
+                    </div>
+                </div>
+                <div class="box five columns">
+                    <div class="logo">
+                        <img src="/images/txt1.svg" alt="" style="width:208px;"><img src="/images/txt2.svg" alt="" style="width:165px;"><img src="/images/txt3.svg" alt="" style="width:190px;">
+                    </div>
+                    <p>Здраствуйте, меня зовут Екатерина Карманович. По образованию я биолог и уже более 5-ти лет работаю начальником лаборатории компании "Ягодная долина". Саженцы, выращенные по технологии Invitro, гарантируют вам здоровый посадочный материал!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="second-b" class="block">
+        <div class="container">
+            <div class="row">
+                <h1>Саженцы голубики InVitrо</h1>
+                <div class="box four columns">
+                    <div class="item">
+                        <img src="/images/icon1.png" alt="">
+                        <span class="item-price">0.5</span>
+                        <span class="item-descript">саженец в кассете (под заказ)</span>
+                    </div>
+                </div>
+                <div class="box four columns">
+
+
+                    <div class="item">
+                        <img src="/images/icon1.png" alt="">
+                        <span class="item-price">0.8</span>
+                        <span class="item-descript">саженец в кассете (в наличии)</span>
+                    </div>
+
+
+
+                </div>
+
+                <div class="box four columns">
+                    <div class="item">
+                        <img src="/images/icon2.png" alt="">
+                        <span class="item-price">2.0</span>
+                        <span class="item-descript">однолетний саженец в горшке</span>
+                    </div>
+                </div>
+                <button class="button-primary bigger" onclick="poopup()">Заказать</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="second" class="block">
+        <div class="container">
+            <div class="row">
+                <div class="three columns">
+                    &nbsp
+                </div>
+                <div class="six columns">
+                    <h2>Пятилетний опыт</h2>
+                    <p>Мы выращиваем саженцы для собственных плантаций и на продажу, активно сотрудничаем с белорусским институтами плодоводства и защиты растений, регулярно проверяем посадочный материал.</p>
+                    <!--<button class="button-primary bigger">Подробнее</button>-->
+                </div>
+                <div class="three columns">
+                    &nbsp
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="third" class="block">
+        <div class="container">
+            <div class="row">
+                <div class="seven columns">
+                    <h2>Почему InVitro?</h2>
+                    <p>Микроклональное размножение – размножение растений in vitro, «в пробирке». Его преимущества перед традиционными способами размножения растений:</p>
+                    <ul>
+                        <li>получение генетически однородного посадочного материала;</li>
+                        <li>освобождение растений от вирусов за счет использования меристемной культуры; высокий коэффициент размножения; </li>
+                        <li>ускорение перехода растений от ювенильной к репродуктивной фазе развития;</li>
+                        <li>размножение растений, трудно размножаемых традиционными способами;</li>
+                        <li>возможность проведения работ в течение всего года и экономия площадей, необходимых для выращивания посадочного материала;</li>
+                        <li>возможность автоматизации процесса выращивания. </li>
+                    </ul>
+                    <p>Процесс микроклонального размножения растений происходит в несколько этапов:</p>
+                    <ul>
+                        <li>Выбор растения-донора, изолирование эксплантов и получение хорошо растущей стерильной культуры.
+                        </li>
+                        <li>Собственно микроразмножение, когда достигается получение максимального количества меристематических клонов</li>
+                        <li>Укоренение размноженных побегов с последующей адаптацией их к почвенным условиям.</li>
+                        <li>Выращивание растений в условиях теплицы и подготовка их к реализации или посадке в поле</li>
+                        <!--<button class="button-primary bigger">Подробнее</button>-->
+                    </ul>
+                </div>
+                <div class="imag five columns">
+                    <img src="./images/invitro_logo3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer.php
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="seven columns">
+                    <h3>Напишите нам:</h3>
+                    <form id="sendMessage" method="POST">
+                        <input type="text" name="name" value="" placeholder="Ваше имя" required>
+                        <textarea cols="45" name="message" placeholder="Ваше сообщение" required></textarea>
+                        <input type="email" name="email" value="" placeholder="Ваше e-mail" required>
+                        <input type="submit" name="send" value="Отправить">
+                    </form>
+                </div>
+                <div class="five columns info">
+                    <h3>Контактная информация</h3>
+                    <p><span>Телефон: </span>+375 (29) 224-55-81</p>
+                    <p>
+                        <a href="https://goo.gl/maps/rK2JYMR178M2" target="_blank">Расположение на карте</a></p>
+                    <p> Юридическая информация: <br> ООО "Ягодная долина" 220030, г. Минск, пл. Свободы 23, комн. 96, Республика Беларусь
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var form = document.getElementById('sendMessage');
+
+        form.onsubmit = function(e){
+            e.preventDefault();
+
+            var data = new FormData(form);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/", true);
+            xhr.send(data);
+
+            xhr.onreadystatechange = function(){
+                if(xhr.status ==200 && xhr.readyState==4){
+
+                    console.log(form.elements);
+                    form.elements.message.value='';
+                    yaCounter37584040.reachGoal('message');
+
+                    var okMessage = document.createElement('span');
+                    okMessage.className = 'okMessage';
+                    okMessage.innerHTML = 'Сообщение оставлено, в ближайшее время с Вами свяжется наш специалист';
+                    form.appendChild(okMessage);
+                    setTimeout(function(){
+                        okMessage.remove();
+                    },5000);
+                }
+            }
+
+
+
+        }
+
+    </script>
+    <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37584040 = new Ya.Metrika({ id:37584040, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37584040" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+
+</html>
