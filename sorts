@@ -86,8 +86,8 @@
 
         <nav id="site-menu">
             <ul>
-                <li><a href="/">Главная</a></li>
-                <li><a href="/sorts">Сорта</a></li>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="sorts">Сорта</a></li>
                 <!--<li><a href="">Блог</a></li>-->
                                 <li><a href="#" onclick="poopup()">Заказать</a></li>
             </ul>
