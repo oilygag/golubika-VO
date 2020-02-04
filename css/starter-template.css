@@ -1,0 +1,96 @@
+body {
+  padding-top: 70px;
+}
+.starter-template {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.body-small {
+  padding-top: 0px;
+}
+
+.starter-small {
+  padding: 0px 5px;
+  text-align: center;
+}
+.right {
+  text-align: right;
+  }
+.borders {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.a-button {
+  text-decoration: none !important;
+}
+.top-null {
+  padding-top: 0px; ! important;
+}
+.top-more {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.bottom-null {
+  padding-bottom: 0px; ! important;
+}
+.profile-img {
+  padding-top: 5px;
+}
+.no-border {
+  border: 1px solid #ffffff !important;
+}
+
+.width-all{
+  width: 100%;
+  border-radius: 0px;
+}
+.cen {
+  text-align: center;
+}
+.search-btn {
+ height: 40px;
+ border-radius: 0px;
+}
+.search-line {
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+.search-time {
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+.search-btn {
+  color: #fff;
+  background-color: #337ab7;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.42857143;
+  border: 1px solid #337ab7;
+  border-radius: 0px;
+}
+.hire {
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
